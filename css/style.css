@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.master {
+    background-color: rgb(40, 40, 40);
+}
+
+/*--banner strats--*/
+
+.my-nav {
+    width: 50%;
+    background-color: rgb(66, 66, 66);
+    position: fixed;
+    z-index: 1;
+}
+
+.inner-banner {
+    margin-top: 120px;
+}
+
+.img-section {
+    padding-inline: 0;
+}
+
+.banner {
+    height: 400px;
+    padding-inline: 0;
+    position: relative;
+}
+
+.menu ul {
+    padding-block: 22px;
+    width: 100%;
+}
+
+.navbar-expand-sm .navbar-nav {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu ul li a {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin-right: 30px;
+}
+
+.menu ul li a:hover {
+    color: rgb(119, 169, 119);
+}
+
+.img-section {
+    position: relative;
+}
+
+.img-1 {
+    width: 100%;
+    height: 1350px;
+    background-image: url("../img/vertex-bg-01.jpg");
+    background-size: cover;
+}
+
+.vertex {
+    width: 300px;
+    height: 250px;
+    background-color: rgb(40, 40, 40);
+    position: absolute;
+    right: 60px;
+    top: 370px;
+    text-align: center;
+    padding-block: 60px;
+    position: fixed;
+    z-index: 999;
+}
+
+.vertex .fa {
+    font-size: 70px;
+    color: gray;
+}
+
+.vertex h1 {
+    font-size: 40px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.img-2 {
+    width: 100%;
+    height: 1200px;
+    background-image: url("../img/vertex-bg-02.jpg");
+    background-attachment: fixed;
+    overflow-y: scroll;
+    background-size: contain;
+    z-index: 1;
+}
+
+.box {
+    padding: 60px 90px 0px 90px;
+    margin-inline: 0;
+}
+
+.box-img img {
+    width: 100%;
+    height: 200px;
+}
+
+.box-text {
+    text-align: right;
+}
+
+.box-text h2 {
+    color: rgb(119, 169, 119);
+    line-height: 42px;
+    text-align: left;
+}
+
+.box-text p {
+    margin-top: 28px;
+    font-size: 17.7px;
+    line-height: 28px;
+    color: gray;
+    text-align: left;
+}
+
+.box-text h5 {
+    font-size: 17px;
+    color: rgb(158, 161, 200);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 2px 2px 2px #000000;
+    z-index: 0;
+}
+
+.btn {
+    width: 150px;
+    height: 55px;
+    border: 1px solid #777777;
+    font-size: 20px;
+    border-radius: 0;
+    margin-top: 50px;
+    color: #8b8b8b;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #8b8b8b;
+}
+
+.btn:hover {
+    border: 1px solid rgb(119, 169, 119);
+    color: rgb(119, 169, 119);
+}
+
+.services {
+    margin-top: 90px;
+}
+
+.services h1 {
+    font-size: 30px;
+    color: rgb(119, 169, 119);
+    margin-top: 120px;
+
+}
+
+.services p {
+    color: #8b8b8b;
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 36px;
+}
+
+.services hr {
+    width: 50%;
+    margin-block: 30px;
+}
+
+.servi {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.servi-1 .fa {
+    font-size: 60px;
+    color: #8b8b8b;
+}
+
+.servi-1 p {
+    font-size: 18px;
+    color: #8b8b8b;
+    text-align: left;
+    margin-top: 40px;
+    line-height: 35px;
+}
+
+/*--banner ends--*/
+/*--gallery strats--*/
+
+.our-gallery a{
+    text-decoration: none;
+}
+
+.gallery h1 {
+    text-align: right;
+    font-size: 30px;
+    color: rgb(119, 169, 119);
+}
+
+.gallery-1 {
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.gallery-1 h1 {
+    font-size: 29px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.img-box {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/gallery/img-01.jpg");
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.img-text {
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+}
+
+.text {
+    height: 80px;
+    background-color: rgb(119, 169, 119);
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+
+.gallery-1:hover .img-box {
+    transform: translateY(-80px);
+}
+
+.gallery-1:hover .text {
+    transform: translateY(-80px);
+}
+
+.shanu {
+    display: none;
+}
+
+.gallery-2 {
+    background-image: url("../img/gallery/img-02.jpg");
+}
+
+.gallery-3 {
+    background-image: url("../img/gallery/img-03.jpg");
+}
+
+.gallery-4 {
+    background-image: url("../img/gallery/img-04.jpg");
+}
+
+.gallery-5 {
+    background-image: url("../img/gallery/img-05.jpg");
+}
+
+.gallery-6 {
+    background-image: url("../img/gallery/img-06.jpg");
+}
+
+.gallery-7 {
+    background-image: url("../img/gallery/img-07.jpg");
+}
+
+.gallery-8 {
+    background-image: url("../img/gallery/img-08.jpg");
+}
+
+.gallery-9 {
+    background-image: url("../img/gallery/img-09.jpg");
+}
+
+.gallery-10 {
+    background-image: url("../img/gallery/img-10.jpg");
+}
+
+.gallery-30 {
+    background-image: url("../img/gallery/img-01.jpg");
+}
+
+.gallery-29 {
+    background-image: url("../img/gallery/img-02.jpg");
+}
+
+.gallery-28 {
+    background-image: url("../img/gallery/img-03.jpg");
+}
+
+.gallery-27 {
+    background-image: url("../img/gallery/img-04.jpg");
+}
+
+.gallery-26 {
+    background-image: url("../img/gallery/img-05.jpg");
+}
+
+.gallery-25 {
+    background-image: url("../img/gallery/img-25.jpg");
+}
+
+.gallery-24 {
+    background-image: url("../img/gallery/img-24.jpg");
+}
+
+.gallery-23 {
+    background-image: url("../img/gallery/img-23.jpg");
+}
+
+.gallery-22 {
+    background-image: url("../img/gallery/img-22.jpg");
+}
+
+.gallery-21 {
+    background-image: url("../img/gallery/img-21.jpg");
+}
+
+.gallery-20 {
+    background-image: url("../img/gallery/img-20.jpg");
+}
+
+.gallery-19 {
+    background-image: url("../img/gallery/img-19.jpg");
+}
+
+.gallery-18 {
+    background-image: url("../img/gallery/img-18.jpg");
+}
+
+.gallery-17 {
+    background-image: url("../img/gallery/img-17.jpg");
+}
+
+.gallery-16 {
+    background-image: url("../img/gallery/img-16.jpg");
+}
+
+.gallery-15 {
+    background-image: url("../img/gallery/img-15.jpg");
+}
+
+.gallery-14 {
+    background-image: url("../img/gallery/img-14.jpg");
+}
+
+.gallery-13 {
+    background-image: url("../img/gallery/img-13.jpg");
+}
+
+.gallery-12 {
+    background-image: url("../img/gallery/img-12.jpg");
+}
+
+.gallery-11 {
+    background-image: url("../img/gallery/img-11.jpg");
+}
+
+.page {
+    margin-top: 80px;
+}
+
+.page .page-item {
+    margin-left: 10px;
+}
+
+.page .page-link {
+    background-color: rgb(13, 13, 13);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 !important;
+    font-size: 20px;
+}
+
+/*--gallery ends--*/
+/*--About-Us strats--*/
+
+.about {
+    margin-top: 130px;
+    text-align: right;
+}
+
+.about-text h1 {
+    font-size: 30px;
+    color: rgb(119, 169, 119);
+    text-align: left;
+    padding-left: 50px;
+    margin-top: 130px;
+}
+
+.about-text hr {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #8b8b8b;
+    text-align: left;
+    margin-top: 40px;
+    line-height: 35px;
+    padding-inline: 50px;
+}
+
+.about-img {
+    height: 1000px;
+    background-image: url("../img/vertex-bg-03.jpg");
+    background-attachment: fixed;
+    overflow-y: scroll;
+    background-size: contain;
+}
+
+/*--About-Us ends--*/
+/*--contect strats--*/
+
+.contect {
+    text-align: right;
+}
+
+.contect h1 {
+    margin-top: 130px;
+}
+
+.contect-img {
+    height: 1100px;
+    background-image: url("../img/vertex-bg-04.jpg");
+    background-size: cover;
+    position: sticky;
+}
+
+.form {
+    padding-inline: 100px;
+    margin-top: 70px;
+}
+
+.int {
+    width: 100%;
+    height: 80px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #8b8b8b;
+    font-size: 20px;
+    color: #8b8b8b;
+}
+
+.msg {
+    height: 180px;
+}
+
+.contect-img {
+    position: relative;
+}
+
+.contect-img .loca {
+    position: absolute;
+    left: 0;
+    top: 260px;
+}
